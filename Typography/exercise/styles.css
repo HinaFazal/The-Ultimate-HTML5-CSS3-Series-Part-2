@@ -1,0 +1,28 @@
+body{
+    margin: 50px;
+    padding: 50px;
+}
+p{
+    font-style: italic;
+}
+.container{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+img{
+    height: 28rem;
+    width:100%;
+}
+h1 h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 62.5%;
+    font-style:20%;
+    
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+p {
+    /* text-align: center;
+    text-indent: 1rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+    white-space: nowrap;
+    border: 3px solid gold;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    width: 50ch;
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 3px dotted lightblue;
+}
