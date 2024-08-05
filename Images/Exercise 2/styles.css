@@ -1,0 +1,37 @@
+.box{
+    
+    color: white;
+    list-style: none;
+    word-spacing: 5px;
+    border: 2px solid lightgray;
+    width: 300px;
+    height: 400px;
+    background-color:  #2a2138;
+    padding: 5px;
+    margin: 0%s;
+}
+li{
+    padding: 10px;
+    font-weight: 100px;
+    font-size: 1rem;
+    margin: 0%;
+}
+i{
+    margin: 10px;
+}
+li:hover:nth-child(2){
+    background-color: #221a2e;
+}
+@media screen and (max-width:329px) {
+
+    .box{
+        width: 100%;
+    }
+}
+@media screen and (min-width:500px) {
+    .box{
+        width: 20%;
+        /* height: 100%; */
+    }
+    
+}

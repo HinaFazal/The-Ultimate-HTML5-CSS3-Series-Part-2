@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.background {
+    background-image: url('jeremy-thomas-E0AHdsENmDg-unsplash.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Adjust text color for better visibility */
+    padding: 20px;
+    height: 100%;
+}
+.heading {
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    word-spacing: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  
+    
+    
+}
+.tagline {
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+        /* Media queries for different screen sizes */
+        @media (max-width: 1440px) {
+            .background {
+                background-image: url('jeremy-thomas-E0AHdsENmDg-unsplash.jpg'); /* Replace with your large tablet image URL */
+            }
+        }
+        @media (max-width: 1228px) {
+            .background {
+                background-image: url('jeremy-thomas-E0AHdsENmDg-unsplash.jpg'); /* Replace with your small tablet image URL */
+            }
+        }
+        @media (max-width: 853px) {
+            .background {
+                background-image: url('jeremy-thomas-E0AHdsENmDg-unsplash.jpg'); /* Replace with your tablet image URL */
+            }
+        }
+        @media (max-width: 320px) {
+            .background {
+                background-image: url('jeremy-thomas-E0AHdsENmDg-unsplash.jpg'); /* Replace with your mobile image URL */
+            }
+        }
+   
+
+
+
+  
+    
+    
+    
+    
+   
+    
+
+
